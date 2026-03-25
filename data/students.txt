@@ -1,0 +1,3 @@
+STUDENT:101,Aditi Prakash,aditi.24bai10589@vitbhopal.ac.in
+GRADE:Maths,98.0
+END

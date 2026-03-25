@@ -2,15 +2,15 @@
 
 <br/>
 
-```
-  ███████╗████████╗██╗   ██╗██████╗ ███████╗███╗   ██╗████████╗
-  ██╔════╝╚══██╔══╝██║   ██║██╔══██╗██╔════╝████╗  ██║╚══██╔══╝
-  ███████╗   ██║   ██║   ██║██║  ██║█████╗  ██╔██╗ ██║   ██║   
-  ╚════██║   ██║   ██║   ██║██║  ██║██╔══╝  ██║╚██╗██║   ██║   
-  ███████║   ██║   ╚██████╔╝██████╔╝███████╗██║ ╚████║   ██║   
-  ╚══════╝   ╚═╝    ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   
-             G R A D E   M A N A G E M E N T   S Y S T E M
-```
+<pre>
+███████╗████████╗██╗   ██╗██████╗ ███████╗███╗   ██╗████████╗
+██╔════╝╚══██╔══╝██║   ██║██╔══██╗██╔════╝████╗  ██║╚══██╔══╝
+███████╗   ██║   ██║   ██║██║  ██║█████╗  ██╔██╗ ██║   ██║   
+╚════██║   ██║   ██║   ██║██║  ██║██╔══╝  ██║╚██╗██║   ██║   
+███████║   ██║   ╚██████╔╝██████╔╝███████╗██║ ╚████║   ██║   
+╚══════╝   ╚═╝    ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   
+         G R A D E   M A N A G E M E N T   S Y S T E M
+</pre>
 
 <br/>
 
@@ -29,67 +29,67 @@
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
-- [Overview](#-overview)
-- [Features](#-features)
-- [Project Structure](#-project-structure)
-- [Technologies Used](#-technologies-used)
-- [Installation & Setup](#-installation--setup)
-- [How to Use](#-how-to-use)
-- [System Diagrams](#-system-diagrams)
-- [Screenshots](#-screenshots)
-- [Non-Functional Requirements](#-non-functional-requirements)
-- [Testing](#-testing)
-- [Author](#-author)
+- [Overview](#overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Installation & Setup](#installation--setup)
+- [How to Use](#how-to-use)
+- [System Diagrams](#system-diagrams)
+- [Screenshots](#screenshots)
+- [Non-Functional Requirements](#non-functional-requirements)
+- [Testing](#testing)
+- [Author](#author)
 
 ---
 
-## 🎯 Overview
+## Overview
 
 The **Student Grade Management System** is a console-driven Java application designed to streamline the management of student information and academic performance. It provides a clean, menu-based interface for educators and administrators to maintain records, compute statistics, and generate structured reports — all without the need for a database or external dependencies.
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |--------|-------------|
-| 🧑‍🎓 **Student Management** | Add, view, and search student records |
-| 📝 **Grade Recording** | Record subject-wise grades per student |
-| 📊 **Report Generation** | View individual student reports and class-wide statistics |
-| 💾 **Data Persistence** | Save and reload data using file I/O |
-| 🛡️ **Input Validation** | Robust error handling for invalid or edge-case inputs |
-| 📋 **Class Reports** | Aggregate performance summaries across all students |
+| **Student Management** | Add, view, and search student records |
+| **Grade Recording** | Record subject-wise grades per student |
+| **Report Generation** | View individual student reports and class-wide statistics |
+| **Data Persistence** | Save and reload data using file I/O |
+| **Input Validation** | Robust error handling for invalid or edge-case inputs |
+| **Class Reports** | Aggregate performance summaries across all students |
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 JAVA_PROJECT_ADITI/
 │
-├── 📁 src/
-│   ├── 📁 models/
+├── src/
+│   ├── models/
 │   │   ├── Student.java          # Student entity model
 │   │   └── Grade.java            # Grade entity model
 │   │
-│   ├── 📁 services/
+│   ├── services/
 │   │   ├── StudentService.java   # Business logic for students
 │   │   ├── GradeService.java     # Business logic for grades
 │   │   └── ReportService.java    # Report generation logic
 │   │
-│   ├── 📁 utils/
+│   ├── utils/
 │   │   ├── FileHandler.java      # File read/write operations
 │   │   └── Validator.java        # Input validation utilities
 │   │
 │   └── Main.java                 # Application entry point
 │
-├── 📁 data/
+├── data/
 │   └── students.txt              # Persistent student data store
 │
-├── 📁 docs/
-│   ├── 📁 diagrams/
+├── docs/
+│   ├── diagrams/
 │   │   ├── 01-use-case-diagram.png
 │   │   ├── 02-class-diagram.png
 │   │   ├── 03-sequence-diagram.png
@@ -97,7 +97,7 @@ JAVA_PROJECT_ADITI/
 │   │   ├── 05-er-diagram.png
 │   │   └── 06-process-flow-diagram.png
 │   │
-│   └── 📁 screenshots/
+│   └── screenshots/
 │       ├── main_menu.png
 │       ├── add_student.png
 │       ├── add_grade.png
@@ -113,7 +113,7 @@ JAVA_PROJECT_ADITI/
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Language**: Java 11+
 - **Paradigm**: Object-Oriented Programming (OOP)
@@ -123,12 +123,12 @@ JAVA_PROJECT_ADITI/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
-- ✅ Java Development Kit (JDK) **11 or higher**
-- ✅ Git
+- Java Development Kit (JDK) **11 or higher**
+- Git
 
 ### Steps to Run
 
@@ -148,11 +148,11 @@ javac -d bin src/models/*.java src/services/*.java src/utils/*.java src/Main.jav
 java -cp bin Main
 ```
 
-> 💡 Refer to [`HowToRun.txt`](HowToRun.txt) for platform-specific instructions.
+> Refer to [`HowToRun.txt`](HowToRun.txt) for platform-specific instructions.
 
 ---
 
-## 🖥️ How to Use
+## How to Use
 
 Once launched, the application presents an interactive menu:
 
@@ -175,119 +175,119 @@ Once launched, the application presents an interactive menu:
 
 ---
 
-## 📐 System Diagrams
+## System Diagrams
 
-### 🏛️ System Architecture
+### System Architecture
 > High-level overview of the application's layered structure.
 
 ![Architecture Diagram](docs/diagrams/04-architecture-diagram.png)
 
 ---
 
-### 👤 Use Case Diagram
+### Use Case Diagram
 > Interactions between the user (actor) and system features.
 
 ![Use Case Diagram](docs/diagrams/01-use-case-diagram.png)
 
 ---
 
-### 🧱 Class Diagram
+### Class Diagram
 > Relationships between Java classes across models, services, and utilities.
 
 ![Class Diagram](docs/diagrams/02-class-diagram.png)
 
 ---
 
-### 🔄 Sequence Diagram
+### Sequence Diagram
 > Step-by-step message flow for key operations.
 
 ![Sequence Diagram](docs/diagrams/03-sequence-diagram.png)
 
 ---
 
-### 🗄️ ER Diagram
+### ER Diagram
 > Entity-Relationship model for the data structures used.
 
 ![ER Diagram](docs/diagrams/05-er-diagram.png)
 
 ---
 
-### 🔁 Process Flow Diagram
+### Process Flow Diagram
 > End-to-end process flow from launch to data persistence.
 
 ![Process Flow Diagram](docs/diagrams/06-process-flow-diagram.png)
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 🏠 Main Menu
+### Main Menu
 > The primary navigation screen displayed on application launch.
 
 ![Main Menu](docs/screenshots/main_menu.png)
 
 ---
 
-### ➕ Add Student
+### Add Student
 > Interface for entering a new student's name and ID.
 
 ![Add Student](docs/screenshots/add_student.png)
 
 ---
 
-### 📝 Add Grade
+### Add Grade
 > Screen for recording a subject-wise grade for an existing student.
 
 ![Add Grade](docs/screenshots/add_grade.png)
 
 ---
 
-### 👁️ View Students
+### View Students
 > Tabular listing of all registered students.
 
 ![View Students](docs/screenshots/view_students.png)
 
 ---
 
-### 📄 Student Report
+### Student Report
 > Detailed academic report for an individual student.
 
 ![Student Report](docs/screenshots/student_report.png)
 
 ---
 
-### 📊 Class Report
+### Class Report
 > Aggregated statistics and performance summary for the entire class.
 
 ![Class Report](docs/screenshots/class_report.png)
 
 ---
 
-## 📋 Non-Functional Requirements
+## Non-Functional Requirements
 
 | Requirement | Specification |
 |------------|---------------|
-| ⚡ **Performance** | All operations respond within **1 second** |
-| 🖱️ **Usability** | Simple numbered menu — no learning curve |
-| 🔒 **Reliability** | Data persists across sessions via file storage |
-| 🧩 **Maintainability** | Modular architecture with clear separation of concerns |
-| 🛡️ **Robustness** | Handles invalid inputs gracefully without crashing |
+| **Performance** | All operations respond within **1 second** |
+| **Usability** | Simple numbered menu — no learning curve |
+| **Reliability** | Data persists across sessions via file storage |
+| **Maintainability** | Modular architecture with clear separation of concerns |
+| **Robustness** | Handles invalid inputs gracefully without crashing |
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Testing is performed manually through the console interface. Scenarios covered:
 
-- ✅ Valid student registration and grade entry
-- ✅ Invalid inputs — negative grades, empty names, duplicate IDs
-- ✅ Edge cases — minimum (0) and maximum (100) grade values
-- ✅ File persistence — data correctly saved and reloaded across sessions
-- ✅ Report accuracy — averages and statistics verified manually
+- Valid student registration and grade entry
+- Invalid inputs — negative grades, empty names, duplicate IDs
+- Edge cases — minimum (0) and maximum (100) grade values
+- File persistence — data correctly saved and reloaded across sessions
+- Report accuracy — averages and statistics verified manually
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Aditi** — *JAVA_PROJECT_ADITI*
 
@@ -299,7 +299,7 @@ Testing is performed manually through the console interface. Scenarios covered:
 
 <br/>
 
-*Built with ☕ Java and a commitment to clean, maintainable code.*
+*Built with Java and a commitment to clean, maintainable code.*
 
 <br/>
 
